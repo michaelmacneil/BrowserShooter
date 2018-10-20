@@ -35,7 +35,7 @@ function Player(x, y) {
   this.color = "red";
   this.alive = true;
   this.bullets = [];
-  this.movement = PlayerMovement();
+  this.movement = new PlayerMovement();
 }
 
 window.onload=function() {
